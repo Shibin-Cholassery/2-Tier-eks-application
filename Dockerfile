@@ -12,5 +12,6 @@ RUN npm install
 COPY app.js .
 COPY queries.js .
 EXPOSE 3000
+ENV PORT=3000
 
 CMD ["node", "app.js"]
