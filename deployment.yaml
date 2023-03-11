@@ -16,7 +16,7 @@ spec:
    spec:
      containers:
        - name: nodejs-app
-         image: 440644114391.dkr.ecr.us-east-1.amazonaws.com/my-docker-repo:latest
+         image: 440644114391.dkr.ecr.us-east-1.amazonaws.com/my-docker-repo:latestv4
          imagePullPolicy: Always
          ports:
          - containerPort: 3000
